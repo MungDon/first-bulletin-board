@@ -1,0 +1,37 @@
+.write_con {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.write_box {
+  display: flex;
+  flex-direction: column;
+}
+.u_title,
+.u_writer {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.u_title p,
+.u_writer p {
+  font-weight: bold;
+}
+.u_title input,
+.u_writer input {
+  border-radius: 3px;
+  margin-top: 5px;
+  width: 500px;
+}
+.u_textarea {
+  margin-top: 10px;
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+}
+.u_textarea textarea {
+  border-radius: 5px;
+  width: 700px;
+  height: 300px;
+}

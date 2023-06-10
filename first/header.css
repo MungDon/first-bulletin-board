@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header_con {
+  width: 100%;
+  padding: 10px 0;
+  background-color: darkcyan;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.login_box {
+  display: flex;
+  font-size: 20px;
+  align-items: end;
+}
+.login_box a {
+  padding: 10px 5px 10px 5px;
+}
+.header_box {
+  font-weight: bold;
+  color: azure;
+}

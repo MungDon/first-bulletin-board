@@ -1,0 +1,91 @@
+/* header */
+.login_header_c {
+  background-color: beige;
+  height: 250px;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: end;
+}
+
+.log_h_box {
+  padding: 20px;
+  font-size: 80px;
+}
+.log_h_box p {
+  font-weight: bold;
+  color: green;
+}
+/* main */
+.login_main_c {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log_m_box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.id,
+.password {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 130px 10px 10px;
+}
+.id p,
+.password p {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.id input,
+.password input {
+  height: 30px;
+  border-radius: 6px;
+}
+.join_bt {
+  display: flex;
+  justify-content: center;
+  margin-left: 75px;
+}
+.join_bt a {
+  font-weight: bolder;
+  color: #999;
+}
+
+.login_box {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 70px;
+}
+.login_bt {
+  color: azure;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer */
+.login_footer_c {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 0px 72px;
+}
+.log_footer_box {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #176bef;
+}
+.home_bt a {
+  color: white;
+  font-size: 20px;
+}

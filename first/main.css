@@ -1,0 +1,144 @@
+.main_con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_box {
+  width: 800px;
+
+  padding: 100px 0px 100px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.list_name {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.list_notice {
+  font-size: 20px;
+  padding-left: 5px;
+}
+.list,
+.title_1 {
+  width: 100%;
+  margin-top: 50px;
+
+  border-top: 2px solid black;
+}
+.top > div {
+  font-weight: bold;
+}
+.num3 > div {
+  border-bottom: 2px solid #999;
+}
+.top,
+.num1,
+.num2,
+.num3 {
+  display: flex;
+}
+.list .num {
+  border: 1px solid #999;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  display: flex;
+}
+
+.list .title {
+  border: 1px solid #999;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  display: flex;
+}
+.list .writer {
+  border: 1px solid #999;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 20%;
+  padding-right: 10px;
+}
+.list .date {
+  border: 1px solid #999;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 20%;
+}
+.list .cnt {
+  border: 1px solid #999;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 20%;
+}
+.btn_con {
+  padding-top: 50px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.btn_box {
+  font-size: 20px;
+  background-color: #176bef;
+  color: aliceblue;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 10px;
+}
+.page_con {
+  display: flex;
+  justify-content: center;
+}
+.page_con > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+.on {
+  background-color: aqua;
+}
+.title_1 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  border-bottom: 1px dashed #999;
+}
+.info {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 5px;
+  border-bottom: 1px solid black;
+}
+.info > div {
+  display: flex;
+  padding: 0px 8px;
+}
+.a {
+  color: #999;
+  border-right: 1px solid #999;
+}
+.b {
+  font-weight: bold;
+}
+.cont {
+  padding: 10px 0px 10px 10px;
+  border-bottom: 1px solid black;
+}
